@@ -1,0 +1,37 @@
+<!doctype HTML>
+<HTML>
+
+<HEAD><TITLE>Write en Acci&oacute;n</TITLE></HEAD>
+
+<BODY>
+<p id="demo"> texto1</p>
+<A HREF="" onclick=”prueba”>algo</A>
+<script LANGUAGE=”JavaScript”>
+
+function prueba() {
+var myVar;
+console.log("nada");
+console.log(typeof myVar); // "undefined"
+
+myVar = "Hola";
+
+console.log(typeof myVar); // "string"
+
+myVar = 20;
+
+console.log(typeof myVar); // "number"
+
+myVar = true;
+
+console.log(typeof myVar); // "boolean"
+
+myVar = [1,2,3,4,5];
+
+console.log(typeof myVar); // "object"
+};
+prueba();
+</script>
+
+</BODY>
+
+</HTML>

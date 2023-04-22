@@ -1,0 +1,58 @@
+h1 {
+font-size: 20;
+color: blue;
+
+}
+
+th{
+align-content: center;
+color: red;
+background: black;
+
+}
+
+a{
+font-style: bold;
+}
+
+td{
+padding: 0px 5px 0px 5px;
+background: grey;
+color: yellow;
+}
+
+td:nth-child(1){
+color:grey;
+background: yellow;
+}
+td:nth-child(2){
+color:blue;
+background: grey;
+}
+td:nth-child(3){
+color:green;
+background:grey;
+}
+td:nth-child(4){
+color:violet;
+background: skyblue;
+}
+
+
+
+/*p:nth-child(odd){
+background: #999999;
+}
+p:nth-child(even){
+background: #555555;
+}*/
+
+a:visited{
+color:green;
+}
+
+a:hover{
+
+color:red;
+font-style:bold;
+}

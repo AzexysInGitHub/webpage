@@ -1,0 +1,20 @@
+p{
+font-size: 20px;
+background: radial-gradient(red, pink);
+color: ghostwhite;
+border: hotpink solid;
+width: 300px;
+height: 50px;
+left: 5px;
+text-align: center;
+box-shadow:  lightpink 0px -10px;
+text-shadow: white 5px 5px 3px;
+margin-left: 20px;
+border-top-right-radius: 50px 50px;
+border-bottom-right-radius: 50px 50px;
+transition: transform 0.5s ease-in-out 1s;
+}
+P:hover{
+  transform: translate(100px);
+  transform: rotate(45deg);
+}

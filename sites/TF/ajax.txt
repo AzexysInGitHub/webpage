@@ -1,0 +1,2 @@
+ajax.txt
+fichero de texto libre
